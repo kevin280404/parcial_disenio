@@ -1,0 +1,105 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(imagesfondojuego.png.avif) no-repeat center center fixed;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    background: rgba(0, 0, 0, 0.8); 
+    border-radius: 15px;
+    width: 80vw; 
+    height: 80vh; 
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+.menu button {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnJvJ {
+    background-color: purple;
+    color: white;
+}
+
+#btnJvM {
+    background-color: teal;
+    color: white;
+}
+
+#btnReiniciar {
+    background-color: red;
+    color: white;
+}
+
+
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+}
+
+.celda {
+    background-color: orange;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+#turno {
+    font-size: 1.5rem;
+}
+
+
+.imagen-debajo {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imagen-debajo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
